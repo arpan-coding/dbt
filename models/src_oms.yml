@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: landing
+    database: SLEEKMART_OMS
+    schema: L1_LANDING
+    tables:
+      - name: cust
+        identifier: customers
+      - name: order
+        identifier: orders
+      - name: orderitems
+        identifier: orderitems
+      - name: employees
+        identifier: employees
+      - name: stores
+        identifier: stores
+      - name: suppliers
+        identifier: suppliers
+      - name: products
+        identifier: products
+
+  - name: training
+    database: SLEEKMART_OMS
+    schema: TRAINING
+    tables:
+      - name: sales_us
+      - name: sales_uk
+      - name: sales_asia
